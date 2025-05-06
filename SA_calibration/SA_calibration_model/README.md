@@ -1,4 +1,4 @@
-# Sulphuric Acid Calibration Modeling
+# Sulphuric Acid Calibration Model
 
 This folder contains Matlab functions and scripts for sulphuric acid calibration modeling. 
 
