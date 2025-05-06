@@ -31,7 +31,7 @@ This folder contains scripts and documentation for determining the It‑product 
   - Run the cells in order to calculate the geometry correction facor K.
 
 >[!TIP]
->For detailed theoretical background and implementation differences, see **N2O_actinometry_experiment_guidelines.pdf**.
+>For detailed theoretical background and script differences, see **N2O_actinometry_experiment_guidelines.pdf**.
 
 >[!NOTE]
 >Feel free to open an issue or submit a pull request for improvements, bug reports, or feature requests.
