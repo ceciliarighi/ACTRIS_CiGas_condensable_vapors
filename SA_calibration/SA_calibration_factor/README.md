@@ -12,8 +12,7 @@ This folder contains Matlab scripts and functions to derive the sulfuric acid ca
   - Plots the time series of sa_conc.
   - Calls average_from_fig to compute y_avg_1 (and y_avg_2 if present).
 
-  >[!NOTE]
-  >After running, save y_avg_1 (and y_avg_2) into your model MAT‑file from Input_parameters.m (see SA_calibration_model/).
+  >NOTE: After running, save y_avg_1 (and y_avg_2) into your model MAT‑file from Input_parameters.m (see SA_calibration_model/).
 
 - **sa_calibration_factor_calculation.m**:
   - Loads the model MAT‑file containing H2Oconc, H2SO4, y_avg_1 (and y_avg_2).
