@@ -22,7 +22,7 @@ This folder contains Matlab scripts and functions to derive the sulfuric acid ca
   - Performs linear regressions (H₂SO₄ = m × y_avg_i) to obtain slope‑based calibration factors for each calibration.
 
 ## Usage
-- Use **sa_meas.m** to extract the CIMS signal for each step of the calibration and save y_avg_1 (and y_avg_2 if present) in your model MAT‑file.
+- Use **sa_meas.m** to extract the CIMS signal for each step of the calibration.
 - Use **sa_calibration_factor_calculation.m** to calculate the mean calibration factor.
 
 >[!NOTE]
