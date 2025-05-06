@@ -7,7 +7,7 @@ This folder contains Matlab scripts and functions to derive the sulfuric acid ca
   - It prompts for start/end times via ginput.
   - It computes the average of each trace.
   - It returns a matrix of y_avg_all signals.
-- **sa_meas.m**: Normalizes and visualizes the CIMS SA signal.
+- **sa_meas.m**: Visualizes the CIMS SA signal.
   - Reads time and sa_conc arrays (normalized SA signal).
   - Plots the time series of sa_conc.
   - Calls average_from_fig to compute y_avg_1 (and y_avg_2 if present).
