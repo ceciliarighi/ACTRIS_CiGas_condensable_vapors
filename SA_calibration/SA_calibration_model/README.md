@@ -20,8 +20,9 @@ This folder contains Matlab functions and scripts for sulphuric acid calibration
     - Call cmd_calib1Matlab for each water flow value.
     - Display plots of concentration profiles and calibration curves.
     - Return the output vectors H2Oconc, H2SO4, O2conc, SO2conc, and totFlow. Each vector has one entry per step in WaterFlow (e.g., five steps → five values per vector).
- 
-Feel free to open an issue or submit a pull request for improvements, bug reports, or feature requests.
+
+>[!NOTE]
+>Feel free to open an issue or submit a pull request for improvements, bug reports, or feature requests.
 
 
 ## Related Resources
