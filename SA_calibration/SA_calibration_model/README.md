@@ -13,7 +13,7 @@ This folder contains Matlab functions and scripts for sulphuric acid calibration
 ## Usage
 - Place all files in the same directory.
 - Open Matlab and change the working directory to this folder.
-- Edit Input_parameters.m:
+- Edit **Input_parameters.m**:
     - Set temperature (T), pressure (p), tube inner diameter (ID), tube length (L), inlet flow rate (Q), It-factor at Q (It), sulphur dioxide concentration in the tank (SO2BottlePpm) and model type (fullOrSimpleModel).
     - Adjust gas flow rates (N2Flow, AirFlow, WaterFlow, SO2Flow) as needed.
 - Run **Input_parameters.m** to:
