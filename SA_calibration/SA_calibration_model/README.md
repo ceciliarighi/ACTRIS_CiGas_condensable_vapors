@@ -25,7 +25,5 @@ This folder contains Matlab functions and scripts for sulphuric acid calibration
 >Feel free to open an issue or submit a pull request for improvements, bug reports, or feature requests.
 
 
-## Related Resources
+## Other Resources
 A Python-based calibration model is available at [momo-catcat/MARFORCE-flowtube](https://github.com/momo-catcat/MARFORCE-flowtube). Comprehensive usage instructions and model details are provided in that repository.
-
-(Here I would like briefly explain the differences between the two models)
