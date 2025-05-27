@@ -19,7 +19,7 @@ This folder contains scripts and documentation for determining the It‑product 
     2) Calculate the geometry correction factor K.
     3) Compute the corrected It‑product.
 - **It_factor.ipynb**
-  - Launch Jupyter and open **It_factor_XCH.ipynb**.
+  - Launch Jupyter and open **It_factor.ipynb**.
   - Update the input arrays and constants under *## user interface*.
   - Run all cells in order to:
     1) Compute the non-corrected It‑product.
