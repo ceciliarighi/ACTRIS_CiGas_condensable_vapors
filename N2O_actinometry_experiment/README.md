@@ -12,7 +12,7 @@ This folder contains scripts and documentation for determining the It‑product 
 
 ## Usage
 - **It_factor.m**
-  - Open **N2O_actinometry.m** in Matlab.
+  - Open **It_factor.m** in Matlab.
   - Update the input arrays and constants under *%% User interface*.
   - Run each section in order to:
     1) Compute the non-corrected It‑product.
