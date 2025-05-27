@@ -3,7 +3,7 @@
 This folder contains scripts and documentation for determining the It‑product (photon flux) required as input parameter for SA calibration models. 
 
 ## Contents
-- **N2O_actinometry.m** (Matlab) and **It_factor_XCH.ipynb** (Python notebook):
+- **N2O_actinometry.m** (Matlab) and **It_factor.ipynb** (Python notebook):
   - Compute the non-corrected It‑product.
   - Calculate the geometry correction factor K for each N₂O concentration step and applies it to yield the corrected It‑product.
 - **It_factor_correction.ipynb** (Python notebook):
@@ -18,7 +18,7 @@ This folder contains scripts and documentation for determining the It‑product 
     1) Compute the non-corrected It‑product.
     2) Calculate the geometry correction factor K.
     3) Compute the corrected It‑product.
-- **It_factor_XCH.ipynb**
+- **It_factor.ipynb**
   - Launch Jupyter and open **It_factor_XCH.ipynb**.
   - Update the input arrays and constants under *## user interface*.
   - Run all cells in order to:
