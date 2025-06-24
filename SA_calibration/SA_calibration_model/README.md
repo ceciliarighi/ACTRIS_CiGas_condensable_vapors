@@ -33,7 +33,7 @@ Currently, the Matlab-based and Python-based calibration models differ in their 
 - The Python-based model calculates the **average sulphuric acid concentration** at the final segment of the tube.
 
 To easily appreciate the difference between the two approaches, imagine the inlet tube divided into a fixed number of
-concentric cells. The Matlab-based model calculates the sum of each cell’s sulfuric acid concentration multiplied by its area and local flow rate. In contrast, the Python-based model multiplies the concentration in each cell by its area only and computes the average across all cells.
+concentric cells. The Matlab-based model calculates the sum of each cell’s sulphuric acid concentration multiplied by its area and local flow rate. In contrast, the Python-based model multiplies the concentration in each cell by its area only and computes the average across all cells.
 
 >[!IMPORTANT]
 >In order to have consistent data, ACTRIS recommends reporting modelled sulphuric acid concentrations as mass flow rates for each step of the calibration experiment.
