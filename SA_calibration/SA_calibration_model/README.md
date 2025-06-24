@@ -27,3 +27,13 @@ This folder contains Matlab functions and scripts for sulphuric acid calibration
 
 ## Other Resources
 A Python-based calibration model is available at [momo-catcat/MARFORCE-flowtube](https://github.com/momo-catcat/MARFORCE-flowtube). Comprehensive usage instructions and model details are provided in that repository.
+
+Currently, the Matlab-based and Python-based calibration models differ in their outputs: 
+- The Matlab-based model returns the **mass flow rate of sulphuric acid** exiting the inlet tube.
+- The Python-based model calculates the **average sulphuric acid concentration** at the final segment of the tube.
+To easily appreciate the difference between the two approaches, imagine the inlet tube divided into a fixed number of
+concentric cells. The Matlab-based model calculates the sum of each cell’s sulfuric acid concentration multiplied by its area and local flow rate. In contrast, the Python-based model multiplies the concentration in each cell by its area only and computes the average across all cells.
+
+>[!IMPORTANT]
+>In order to have consistent data, ACTRIS recommends reporting modelled sulphuric acid concentrations as mass flow rates for each step of the calibration experiment.
+
