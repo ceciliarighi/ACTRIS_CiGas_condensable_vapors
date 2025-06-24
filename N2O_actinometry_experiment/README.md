@@ -42,8 +42,8 @@ This folder contains scripts and documentation for determining the It‑product 
   - Update the input arrays and constants under *## user interface*.
   - Run the cells in order to calculate the geometry correction facor K.
 
-[!IMPORTANT]
-Be sure to apply the geometry correction factor K as described in Appendix A of [Kürten *et al.* (2012)](https://pubs.acs.org/doi/10.1021/jp212123n), regardless of which script you use.
+>[!IMPORTANT]
+>Be sure to apply the geometry correction factor K as described in Appendix A of [Kürten *et al.* (2012)](https://pubs.acs.org/doi/10.1021/jp212123n), regardless of which script you use.
 
 >[!TIP]
 >For detailed theoretical background and script differences, see **N2O_actinometry_experiment_guidelines.pdf**.
