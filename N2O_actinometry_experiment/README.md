@@ -12,7 +12,7 @@ This folder contains scripts and documentation for determining the It‑product 
   - Calculate the geometry correction factor K for each N₂O concentration step and applies it to yield the corrected It‑product.
 - **It_factor_correction.ipynb** (Python notebook):
   - Computes the geometry correction factor K for each N₂O concentration step.
-  - Assumes the non-corrected It‑product has been calculated elsewhere (e.g., in Excel) and calculates K to correct it.
+  - Assumes the non-corrected It‑product has been calculated elsewhere and calculates K to correct it.
 
 ## Usage
 - **It_product_calc_template.m**
@@ -41,6 +41,9 @@ This folder contains scripts and documentation for determining the It‑product 
   - Launch Jupyter and open **It_factor_correction.ipynb**.
   - Update the input arrays and constants under *## user interface*.
   - Run the cells in order to calculate the geometry correction facor K.
+
+[!IMPORTANT]
+Be sure to apply the geometry correction factor K as described in Appendix A of [Kürten *et al.* (2012)](https://pubs.acs.org/doi/10.1021/jp212123n), regardless of which script you use.
 
 >[!TIP]
 >For detailed theoretical background and script differences, see **N2O_actinometry_experiment_guidelines.pdf**.
