@@ -3,11 +3,8 @@
 This folder contains scripts and documentation for determining the It‑product (photon flux) required as input parameter for SA calibration models. 
 
 ## Contents
-- **It_product_calc_template.m** (Matlab):
+- **It_product_calc_template.m** (Matlab), **It_factor.m** (Matlab) and **It_factor.ipynb** (Python notebook):
   - Takes into account the NOx monitor detection limit.
-  - Compute the non-corrected It‑product.
-  - Calculate the geometry correction factor K for each N₂O concentration step and applies it to yield the corrected It‑product.
-- **It_factor.m** (Matlab) and **It_factor.ipynb** (Python notebook):
   - Compute the non-corrected It‑product.
   - Calculate the geometry correction factor K for each N₂O concentration step and applies it to yield the corrected It‑product.
 - **It_factor_correction.ipynb** (Python notebook):
@@ -17,12 +14,10 @@ This folder contains scripts and documentation for determining the It‑product 
 ## Usage
 - **It_product_calc_template.m**
   - Open **It_product_calc_template.m** in Matlab.
-  - Update the input arrays and constants under *%% parameter input*.
   - Run each section in order to:
-    1) Remove background levels and values below the detection limit.
-    2) Compute the non-corrected It‑product.
-    3) Calculate the geometry correction factor K.
-    4) Compute the corrected It‑product.
+    1) Compute the non-corrected It‑product.
+    2) Calculate the geometry correction factor K.
+    3) Compute the corrected It‑product.
 - **It_factor.m**
   - Open **It_factor.m** in Matlab.
   - Update the input arrays and constants under *%% User interface*.
