@@ -11,7 +11,7 @@ It includes:
 
 The calibration factor is derived using modeled sulfuric acid concentrations from `SA_calibration_model/` and calibration experiment data processed with:
 - **TofTools** (Matlab workflow)
-- **Tofware** (https://www.tofwerk.com/software/tofware/) (Python/Jupyter workflow)
+- **Tofware** (https://www.tofwerk.com/software/tofware/) (Python workflow)
 
 >[!NOTE]
 >Feel free to open an issue or submit a pull request for improvements, bug reports, or feature requests.
