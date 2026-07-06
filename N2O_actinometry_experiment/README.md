@@ -1,47 +1,23 @@
 # It-product
 
-This folder contains scripts and documentation for determining the It‑product (photon flux) required as input parameter for SA calibration models. 
+This folder contains scripts and documentation for determining the It‑product (photon flux) required as input parameter for sulfuric acid calibration model. 
 
 ## Contents
-- **It_product_calc_template.m** (Matlab), **It_factor.m** (Matlab) and **It_factor.ipynb** (Python notebook):
-  - Takes into account the NOx monitor detection limit.
-  - Compute the non-corrected It‑product.
-  - Calculate the geometry correction factor K for each N₂O concentration step and applies it to yield the corrected It‑product.
-- **It_factor_correction.ipynb** (Python notebook):
-  - Computes the geometry correction factor K for each N₂O concentration step.
-  - Assumes the non-corrected It‑product has been calculated elsewhere and calculates K to correct it.
+- **It_factor.m** (Matlab) and **It_factor.ipynb** (Jupiter Notebook):
+  --> These scripts output the mean and median values of both the uncorrected and geometry-corrected It-product, scaled to the total flow rate used during the sulfuric acid calibration experiment.
 
-## Usage
-- **It_product_calc_template.m**
-  - Open **It_product_calc_template.m** in Matlab.
-  - Run each section in order to:
-    1) Compute the non-corrected It‑product.
-    2) Calculate the geometry correction factor K.
-    3) Compute the corrected It‑product.
-- **It_factor.m**
-  - Open **It_factor.m** in Matlab.
-  - Update the input arrays and constants under *%% User interface*.
-  - Run each section in order to:
-    1) Compute the non-corrected It‑product.
-    2) Calculate the geometry correction factor K.
-    3) Compute the corrected It‑product.
-- **It_factor.ipynb**
-  - Launch Jupyter and open **It_factor.ipynb**.
-  - Update the input arrays and constants under *## user interface*.
-  - Run all cells in order to:
-    1) Compute the non-corrected It‑product.
-    2) Calculate the geometry correction factor K.
-    3) Compute the corrected It‑product.
-- **It_factor_correction.ipynb**
-  - Launch Jupyter and open **It_factor_correction.ipynb**.
-  - Update the input arrays and constants under *## user interface*.
-  - Run the cells in order to calculate the geometry correction facor K.
+- **It_factor_correction.ipynb** (Jupiter Notebook):
+  --> This script outputs the geometry correction factor (K) for each step of the N₂O actinometry experiment.
+
+- **example_sheet.xlsx** (Excel Spreadsheet):
+  --> This spreadsheet provides a template for processing N₂O actinometry data. It outputs the mean and median values of both the uncorrected and geometry-corrected It-product for the total flow rate used during the actinometry experiment (7.5 lpm), as well as for a total flow rate of 10 lpm. The geometry correction factor K must first be calculated separately using It_factor_correction.ipynb and then entered into the spreadsheet.
+
 
 >[!IMPORTANT]
->In order to have consistent data, ACTRIS recommends to apply the geometry correction factor K as described in Appendix A of [Kürten *et al.* (2012)](https://pubs.acs.org/doi/10.1021/jp212123n), regardless of which script is used.
+>In order to have consistent data, ACTRIS recommends to apply the geometry correction factor K as described in Appendix A of [Kürten *et al.* (2012)](https://pubs.acs.org/doi/10.1021/jp212123n).
 
 >[!TIP]
->For detailed theoretical background and script differences, see **N2O_actinometry_experiment_guidelines.pdf**.
+>For detailed theoretical background and guidelines on the N2O actinometry experiment, see **ACTRIS_CiGas_UHEL_N2Oactinometry_guidelines.pdf**.
 
 >[!NOTE]
 >Feel free to open an issue or submit a pull request for improvements, bug reports, or feature requests.
